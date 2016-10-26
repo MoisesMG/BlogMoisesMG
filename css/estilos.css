@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
+/** crear menu **/
 header{
     margin-top: 10px;
     width: 100%;
@@ -28,7 +30,7 @@ nav ul{
 nav > ul{
     display: table;
     width: 100%;
-    background: black;
+    background:rgb(14, 8, 22);
     position: relative;
 }
 
@@ -46,22 +48,23 @@ nav >ul >li:hover >ul{
 nav >ul >li >ul{
     display: block;
     position: absolute;
-    background: black;
+   background:rgb(14, 8, 22);
     left: 0;
     right: 0;
     overflow: hidden;
     height: 0%;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 
 /**************/
 
 nav > ul li a{
+    font-size: 1em;
     color: white;
     display: block;
     line-height: 20px;
@@ -69,15 +72,16 @@ nav > ul li a{
     position: relative;
     text-align: center;
     text-decoration: none;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 nav >ul > li >ul >li a:hover{
-    background: #5da5a2;
+    background: #a239ca;
+    border-radius: 25%;
 }
 
 nav > ul > li a span{
@@ -98,13 +102,23 @@ nav >ul >li > a:hover >span{
     top: 0;
     text-align: center;
     text-decoration: none;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .header2{
     position: fixed;
 }
+
+/*
+.jewel{
+    background: #4717f6;
+
+}
+.stark{
+    background: #e7dfdd;
+}*/
+/********************/

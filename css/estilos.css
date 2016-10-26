@@ -5,12 +5,17 @@
 }
 
 /** crear menu **/
+.cubridor{
+    width: 100%;
+    height: 80px;
+    background: #2495c9;
+}
 header{
     margin-top: 10px;
     width: 100%;
     height: 150px;
     overflow: hidden;
-    position: relative;
+    position: absolute;
     z-index: 100;
 }
 
@@ -85,7 +90,7 @@ nav >ul > li >ul >li a:hover{
 }
 
 nav > ul > li a span{
-    background: #174459;
+    background: #2495c9;
     display: block;
     height: 100%;
     width: 100%;
@@ -122,3 +127,16 @@ nav >ul >li > a:hover >span{
     background: #e7dfdd;
 }*/
 /********************/
+
+/*** slider ****/
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 26px;
+  line-height: 4px;
+}
+/**********************************/

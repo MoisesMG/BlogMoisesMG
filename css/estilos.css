@@ -175,6 +175,7 @@ nav >ul >li > a:hover >span{
 /**********************************/
 
 /*** cuerpo de la pagina ***/
+
 #cuerpo, #izq, #der, #social {
     /*border: 0.5px solid black;*/
 }
@@ -187,14 +188,14 @@ nav >ul >li > a:hover >span{
 #izq{
     float: left;
     width: 30%;
-    height: 400px;
+
     background: #0e0816;
 }
 
 #der{
     float: right;
     width: 70%;
-    height: 400px;
+    
 }
 
 /* columna izquierda */
@@ -269,4 +270,35 @@ box-shadow: inset 12px 9px 300px 53px rgba(26,25,26,1);
 	-webkit-text-stroke-width:0.2px; 
 }
 /**********************/
+
+/** columna derecha **/
+    .vista-articulo{
+        background: #0e0816;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+
+    .contenido-articulo{
+        background: #0e0816;
+        font-family: Roboto;
+        float: left;
+        color: white;
+        padding: 10px 30px 20px 30px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+    }
+    
+    .img-articulo{
+        width: 300px;
+        height: 250px;
+        float: left;
+        margin: 0 20px 20px 20px;
+        border-radius: 10px;
+        
+    }
+/**************/
 /**************/

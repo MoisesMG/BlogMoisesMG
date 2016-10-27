@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?9qkg5c');
-  src:  url('fonts/icomoon.eot?9qkg5c#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?9qkg5c') format('truetype'),
-    url('fonts/icomoon.woff?9qkg5c') format('woff'),
-    url('fonts/icomoon.svg?9qkg5c#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1ddv7a');
+  src:  url('fonts/icomoon.eot?1ddv7a#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1ddv7a') format('truetype'),
+    url('fonts/icomoon.woff?1ddv7a') format('woff'),
+    url('fonts/icomoon.svg?1ddv7a#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,8 +30,14 @@
 .icon-book:before {
   content: "\e901";
 }
+.icon-mail:before {
+  content: "\e90b";
+}
 .icon-man:before {
   content: "\e902";
+}
+.icon-thumbs-up:before {
+  content: "\e90c";
 }
 .icon-tv:before {
   content: "\e903";
@@ -50,5 +56,14 @@
 }
 .icon-vinyl:before {
   content: "\e908";
+}
+.icon-facebook:before {
+  content: "\e909";
+}
+.icon-google:before {
+  content: "\e90d";
+}
+.icon-youtube:before {
+  content: "\e90a";
 }
 

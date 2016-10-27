@@ -324,16 +324,17 @@ box-shadow: inset 12px 9px 300px 53px rgba(26,25,26,1);
 /** pie de pagina **/
 footer{
     width: 90%;
-    background: #e7dfdd;
+    background: #0e0816;
     padding: 30px;
     margin: 0 auto 0 auto;
     overflow: hidden;
+    color: white;
 }
 
 #creadores{
     float: left;
     font-size: 20px;;
-    background: #e7dfdd;
+
     
 }
 
@@ -345,7 +346,7 @@ footer{
 #proposito{
     float: right;
     font-size: 20px;
-    background: #e7dfdd;
+   
     
 }
 /************************/

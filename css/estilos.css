@@ -136,6 +136,11 @@ nav >ul >li > a:hover >span{
 /********************/
 
 /*** slider ****/
+#galeria{
+    width: 100%;
+    background: #e7dfdd;
+}
+
 .flex-caption {
   width: 96%;
   padding: 2%;

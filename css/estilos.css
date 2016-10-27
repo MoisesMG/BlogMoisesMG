@@ -253,6 +253,10 @@ nav >ul >li > a:hover >span{
     background: #2980b9;
 }
 
+.button.zona-art{
+    background: #1abc9c;
+}
+
 .button:hover{
     font-size: 30px;
     -webkit-box-shadow: inset 12px 9px 300px 53px rgba(26,25,26,1);
@@ -267,6 +271,10 @@ box-shadow: inset 12px 9px 300px 53px rgba(26,25,26,1);
 }
 
 .button.articulos:hover{
+    font-size: 25px;
+}
+
+.button.zona-art:hover{
     font-size: 25px;
 }
 

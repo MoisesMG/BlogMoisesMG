@@ -92,6 +92,94 @@ header nav a:hover{
 }
 /*********************/
 
+/**** banner ***/
+.banner{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.banner img{
+    display: block;
+    width: 984px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+/*********************/
+
+/** cuerpo **/
+
+#cuerpo{
+    width: 90%;
+    margin: 40px auto;
+    
+}
+.articulo{
+    width: 100%;
+    border-bottom: 3px solid #00a9ea ;
+    margin: 100px 0 60px 0;
+}
+
+.titulo{
+ border-bottom: 3px solid #00a9ea ;
+ padding: 0 30px;
+}
+.titulo h2{
+    font-family: 'Open Sans';
+    font-size: 70px;
+    text-align: center;
+    display: block;
+}
+
+.articulo p{
+    font-family: Roboto;
+    padding: 10px 30px 20px 30px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.botones{
+    /*border: 3px solid 	#282c34;*/
+    overflow: hidden;
+}
+
+.button.editores{
+    background: #2980b9;
+    float: left;
+    width: 30%;
+}
+
+.button.sitios{
+    background:#e74c3c;
+    float: left;
+    width: 30%;
+}
+
+.button.api{
+    background: #16a085;
+    width: 40%;
+}
+
+.subtitulo{
+    border-bottom: 3px solid #34495e ;
+    padding: 0 30px;;
+}
+
+.subtitulo h2{
+    font-family: 'Open Sans';
+    font-size: 30px;
+    text-align: left;
+    display: block;
+}
+
+iframe{
+    margin: 10px ;
+    float: left;
+}
+/****************/
+
 .button{
     background: #7f8c8d;
     color: #fff;
@@ -190,9 +278,9 @@ box-shadow: inset 12px 9px 300px 53px rgba(26,25,26,1);
 /** pie de pagina **/
 footer{
     width: 90%;
-    background: #0e0816;
+    background: 	#282c34;
     padding: 30px;
-    margin: 0 auto 0 auto;
+    margin: 50px auto 0 auto;
     overflow: hidden;
     color: white;
 }

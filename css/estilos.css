@@ -358,3 +358,48 @@ footer{
     
 }
 /************************/
+
+/** formulario de contacto ***/
+form{
+    width: 90%;
+    margin: 10px auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.campo-form{
+    width: 100%;
+    float: left;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+}
+
+.campo{
+        width: 90%;
+        display: block;
+        font-family: Roboto;
+        padding: 10px 30px 10px 30px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        background: rgba(231, 223, 221, 0.9);
+}
+
+.campo:focus{
+   
+    border: 3px solid #2495c9;
+}
+
+.enviar{
+    background: #27ae60;
+}
+
+.reset{
+    background: #16a085;
+}
+
+#msm{
+    height: 200px;
+}
+/*****************/
